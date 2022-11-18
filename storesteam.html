@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Steam</title>
+    <link rel="icon" href="https://cdn.freebiesupply.com/images/large/2x/steam-logo-transparent.png">
+    <link rel="stylesheet" href="storesteam.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="nav">
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <a href="storesteam.html"><img id="steamlogo" src="https://store.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" alt=""></a>
+                <ul class="ul1">
+                    <div class="dropdown">
+                        <li><a href="#" id="link">STORE</a></li>
+                        <div class="dropdown-content">
+                          <a href="storesteam.html">HOME</a>
+                          <a href="#">DISCOVERY QUEUE</a>
+                          <a href="#">WISHLIST</a>
+                          <a href="#">POINTS SHOP</a>
+                          <a href="#">NEWS</a>
+                          <a href="#">STATISTICS</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <li><a href="#" id="link">COMMUNITY</a></li>
+                        <div class="dropdown-content">
+                          <a href="storesteam.html">HOME</a>
+                          <a href="#">DISCUSSIONS</a>
+                          <a href="#">WORKSHOP</a>
+                          <a href="#">MARKET</a>
+                          <a href="#">BROADCASTS</a>
+                        </div>
+                    </div>
+                    <li><a href="#" id="link">ABOUT</a></li>
+                    <li><a href="#" id="link">SUPPORT</a></li>
+                    <li><a href="steamlogin.html" id="link" class="alink">LOGIN</a></li>
+                    <p id="linkp">Change language</p>
+                    <p id="linkp">View desktop website</p>
+                </ul>
+            </div>
+
+            <div class="nav2">
+                <ul>
+                    <i class="fa-solid fa-download"><button>Install Steam</button></i>
+                    <span><a href="steamlogin.html">Login</a></span>
+                    <span>|</span>
+                    <select name="language" id="">
+                        <option value="">Language</option>
+                        <option value="">Danish</option>
+                        <option value="">German</option>
+                        <option value="">English</option>
+                        <option value="">Spanish</option>
+                        <option value="">French</option>
+                        <option value="">Italian</option>
+                    </select>
+                </ul>
+             </div>  
+        </nav>
+    </header>
+
+    <main class="main">
+
+        <div class="search">
+            <div class="searchbar">
+               <nav>
+                    <ul>
+                        <li>
+                            <a id="store" href="#">Your Store</a>
+                            <a id="newnote" href="#">New & Noteworthy</a>
+                            <a id="categ" href="#">Categories</a>
+                            <a id="point" href="#">Points Shop</a>
+                            <a id="news" href="#">News</a>
+                            <a id="labs" href="#">Labs</a>
+                            <input type="search" name="search" id="search" placeholder="search"><i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    </ul>
+                </nav> 
+            </div>
+        </div>
+
+        <div class="featuredgames">
+            <p class="ftrdgms">FEATURED & RECOMMENDED</p>
+        </div>
+        
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true"> 
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="games">
+                            <div class="gameimg">
+                                <img id="gta" src="https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fgrand-theft-auto-v%2Fhome%2FGTAV_EGS_Artwork_1920x1080_Hero-Carousel_V06-1920x1080-1503e4b1320d5652dd4f57466c8bcb79424b3fc0.jpg" alt="">
+                            </div>
+                            <div class="gameimgs">
+                                <h3 id="h3gta">Grand Theft Auto V: Premium Edition</h3>
+                                <div class="gtaimg1">
+                                    <img src="https://cdn.wallpapersafari.com/92/33/Kru0Co.jpg" alt="">
+                                </div>
+                                <div class="gtaimg2">
+                                    <img src="https://wallpaper.dog/large/17185210.jpg" alt="">
+                                </div>
+                                <div class="gtaimg3">
+                                    <img src="https://cdn.wallpapersafari.com/77/41/QfnpT5.jpg" alt="">
+                                </div>
+                                <div class="gtaimg4">
+                                    <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/grand-theft-auto-5/9/91/GTAV.PS4.1080P.804.jpg?width=640" alt="">
+                                </div>
+                                <div class="prices">
+                                    <h4 id="h4">Now Available</h4>
+                                    <h5 id="h5">Top Seller</h5>
+                                    <h6 id="h6">$25.48 USD</h6>
+                                    <i class="fa-brands fa-windows"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              <div class="carousel-item">
+                <div class="games">
+                    <div class="gameimg">
+                        <img id="cod" src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/mw2/meta-images/reveal/mw2-reveal-meta-share.jpg" alt="">
+                    </div>
+                    <div class="gameimgs">
+                        <h3>Call Of Duty: Modern Warfare II</h3>
+                        <div class="codimg1">
+                            <img src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/mw2/home/reveal/new-era/new_era-mw2.jpg" alt="">
+                        </div>
+                        <div class="codimg2">
+                            <img src="https://cdn.mos.cms.futurecdn.net/HamjfpRN4CfNUE3AKBMFVP.jpg" alt="">
+                        </div>
+                        <div class="codimg3">
+                            <img src="https://www.nme.com/wp-content/uploads/2022/06/Modern-Warfare-2-preview-2000x1270-1.jpg" alt="">
+                        </div>
+                        <div class="codimg4">
+                            <img src="https://progameguides.com/wp-content/uploads/2022/06/featured-Call-of-Duty-Modern-Warfare-2-all-pre-order-bonuses.jpg" alt="">
+                        </div>
+                        <div class="prices">
+                            <h4 id="h4">Now Available</h4>
+                            <h5 id="h5">Top Seller</h5>
+                            <h6 id="h6">$69.99 USD</h6>
+                            <i class="fa-brands fa-windows"></i>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="games">
+                    <div class="gameimg">
+                        <img id="spd" src="https://cdn1.epicgames.com/offer/4bc43145bb8245a5b5cc9ea262ffbe0e/EGS_MarvelsSpiderManRemastered_InsomniacGamesNixxesSoftware_S1_2560x1440-73702d11161b29a0b7c40a8b489b1808" alt="">
+                    </div>
+                    <div class="gameimgs">
+                        <h3>Marvel's Spider-Man Remastered</h3>
+                        <div class="spdimg1">
+                            <img src="https://cdn.akamai.steamstatic.com/steam/apps/1817070/ss_e425f5f97ece3ab8cfa09747dafeac2dd44a9b29.1920x1080.jpg?t=1660316394" alt="">
+                        </div>
+                        <div class="spdimg2">
+                            <img src="https://cdn.akamai.steamstatic.com/steam/apps/1817070/ss_ad14a7daa190cb150fbb070afc70bc64d66a5e2e.1920x1080.jpg?t=1660316394" alt="">
+                        </div>
+                        <div class="spdimg3">
+                            <img src="https://cdn.akamai.steamstatic.com/steam/apps/1817070/ss_dfe778bf6d66e952e4acd4e1f926f7615b609ddf.1920x1080.jpg?t=1660316394" alt="">
+                        </div>
+                        <div class="spdimg4">
+                            <img src="https://img.game8.co/3556246/b5314f73cd3dc42dfc45e854aba456d1.png/show" alt="">
+                        </div>
+                        <div class="prices">
+                            <h4 id="h4">Now Available</h4>
+                            <h5 id="h5">Top Seller</h5>
+                            <h6 id="h6">$49.99 USD</h6>
+                            <i class="fa-brands fa-windows"></i>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+        <div class="special">
+            <div class="offers">
+                <p class="spcl">SPECIAL OFFERS</p>
+                <button class="brws">BROWSE MORE</butt>
+            </div>
+        </div>
+
+        <div class="gamecards">
+            <div class="spclgame">
+                <div class="cardimg">
+                    <img src="https://www.mobygames.com/images/covers/l/537872-assassin-s-creed-odyssey-playstation-4-inside-cover.jpg" alt="">
+                </div>
+                <div class="cardbody">
+                    <h5 class="card-title">Assassin's Creed Odyssey</h5>
+                    <h6 class="cardoffer">Offer ends 31 Dec @ 9:00pm.</h6>
+                    <p class="card-text">-30%</p>
+                    <span class="card-txt">$34.99 USD</span>
+                </div>
+            </div>
+
+            <div class="spclgame1">
+                <div class="cardimg1">
+                    <img src="https://image.api.playstation.com/cdn/UP1018/CUSA00133_00/DsXSr2e4lbbinbQ7VOcBIu2HtSTyhrv8.png" alt="">
+                </div>
+                <div class="cardbody1">
+                    <h5 class="card-title1">Batman Arkham Collection</h5>
+                    <h6 class="cardoffer1">Offer ends 31 Dec @ 9:00pm.</h6>
+                    <p class="card-text1">-85%</p>
+                    <span class="card-txt1">$8.99 USD</span>
+                </div>
+            </div>
+
+            <div class="spclgame2">
+                <div class="cardimg2">
+                    <img src="https://s3.gaming-cdn.com/images/products/7805/orig/mortal-kombat-11-ultimate-switch-ultimate-switch-game-nintendo-eshop-europe-cover.jpg?v=1648133129" alt="">
+                </div>
+                <div class="cardbody2">
+                    <h5 class="card-title2">Mortal Kombat 11</h5>
+                    <h6 class="cardoffer2">Offer ends 31 Dec @ 9:00pm.</h6>
+                    <p class="card-text2">-75%</p>
+                    <span class="card-txt2">$14.99 USD</span>
+                </div>
+            </div>
+
+            <div class="spclgame3">
+                <div class="cardimg3">
+                    <img src="https://cdn-ext.fanatical.com/production/product/1280x720/f2bfdeec-5e4a-436e-afa0-cc6222512840.jpeg" alt="">
+                </div>
+                <div class="cardbody3">
+                    <p class="card-text3">-85%</p>
+                    <span class="card-txt3">$8.99 USD</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="categories">
+            <p class="categoriesp">BROWSE BY CATEGORY AND MORE</p>
+        </div>
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel1">
+              <div class="carousel-item active">
+                <div class="gamecat">
+                    <div class="strategy">
+                        <img src="https://store.steampowered.com/categories/homepageimage/category/strategy?cc=us&l=english" alt="">
+                        <h5 class="strh5">STRATEGY</h5>
+                    </div>
+        
+                    <div class="survival">
+                        <img src="https://store.steampowered.com/categories/homepageimage/category/survival?cc=us&l=english" alt="">
+                        <h5 class="surh5">SURVIVAL</h5>
+                    </div>
+        
+                    <div class="coop">
+                        <img src="https://store.steampowered.com/categories/homepageimage/category/multiplayer_coop?cc=us&l=english" alt="">
+                        <h5 class="coh5">CO-OPERATIVE</h5>
+                    </div>
+        
+                    <div class="open">
+                        <img src="https://store.steampowered.com/categories/homepageimage/category/exploration_open_world?cc=us&l=english" alt="">
+                        <h5 class="oph5">OPEN WORLD</h5>
+                    </div>
+                </div> 
+              </div>
+            </div>
+            <div class="carousel2">
+              <div class="carousel-item">
+                <div class="gamecat">
+                    <div class="rich">
+                        <img src="https://store.steampowered.com/categories/homepageimage/category/story_rich?cc=us&l=english" alt="">
+                        <h5 class="richh5">STORY-RICH</h5>
+                    </div>
+        
+                    <div class="racing">
+                        <img src="https://store.steampowered.com/categories/homepageimage/category/racing?cc=us&l=english" alt="">
+                        <h5 class="racingh5">RACING</h5>
+                    </div>
+        
+                    <div class="role">
+                        <img src="https://store.steampowered.com/categories/homepageimage/category/rpg?cc=us&l=english" alt="">
+                        <h5 class="roleh5">ROLE-PLAYING</h5>
+                    </div>
+        
+                    <div class="adventure">
+                        <img src="https://store.steampowered.com/categories/homepageimage/category/adventure?cc=us&l=english" alt="">
+                        <h5 class="adventureh5">ADVENTURE</h5>
+                    </div>
+                </div> 
+              </div>
+            </div>
+            <div class="carousel3">
+              <div class="carousel-item">
+                <div class="gamecat">
+                    <div class="horror">
+                        <img src="https://store.steampowered.com/categories/homepageimage/category/horror?cc=us&l=english" alt="">
+                        <h5 class="horrorh5">HORROR</h5>
+                    </div>
+        
+                    <div class="sci">
+                        <img src="https://store.steampowered.com/categories/homepageimage/category/science_fiction?cc=us&l=english" alt="">
+                        <h5 class="scih5">SCI-FI & CYBERPUNK</h5>
+                    </div>
+        
+                    <div class="fight">
+                        <img src="https://store.steampowered.com/categories/homepageimage/category/fighting_martial_arts?cc=us&l=english" alt="">
+                        <h5 class="fighth5">FIGHTING</h5>
+                    </div>
+        
+                    <div class="puzzle">
+                        <img src="https://store.steampowered.com/categories/homepageimage/category/puzzle_matching/?cc=us&l=english" alt="">
+                        <h5 class="puzzleh5">PUZZLE</h5>
+                    </div>
+                </div> 
+              </div>
+            </div>
+        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        
+
+        <div class="signcon">
+            <div class="signin">
+                <div class="signtxt">
+                    <p class="h5rec">Sign in to view personalized recommendations</p>
+                    <button class="sign"><a href="steamlogin.html" id="signina">Sign In</a></button>
+                    <p class="h5join">Or <a href="steamregistration.html">sign up</a> and join Steam for free</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="brwssteamtxt">
+            <p class="browsetxt">BROWSE STEAM</p>
+        </div>
+
+        <div class="brwssteam">
+            <div class="new">
+                <p>NEW RELEASES</p>
+            </div>
+            <div class="specials">
+                <p>SPECIALS</p>
+            </div>
+            <div class="free">
+                <p>FREE GAMES</p>
+            </div>
+            <div class="usertags">
+                <p>BY USER TAGS</p>
+            </div>
+        </div>
+
+        <div class="gamecontainerbtn">
+            <div class="buttons">
+                <p class="p1">New & Trending</p>
+                <p class="p2">Top Sellers</p>
+                <p class="p3">Popular Upcoming</p>
+                <p class="p4">Specials</p>
+            </div>
+        </div>
+
+        <div class="gamecontainer">
+            <div class="gameside">
+                <div class="game1">
+                    <div class="game1img">
+                        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/218620/capsule_616x353.jpg?t=1663853898" alt="">
+                    </div>
+                    <div class="game1txt">
+                        <p class="game1pydy">Payday 2</p>
+                    </div>
+                    <div class="game1info">
+                        <h6 class="game1gen">Action, Shooter, Multiplayer</h6>
+                    </div>
+                </div>
+
+                <div class="game2">
+                    <div class="game2img">
+                        <img src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/mwii/MWII-002-REVEAL-TOUT.jpg" alt="">
+                    </div>
+                    <div class="game2txt">
+                        <p class="game2cod">Call Of Duty: Modern Warfare II</p>
+                    </div>
+                    <div class="game2info">
+                        <h6 class="game2gen">Action, Shooter, Multiplayer</h6>
+                    </div>
+                </div>
+
+                <div class="game3">
+                    <div class="game3img">
+                        <img src="https://esports.eldesmarque.com/wp-content/uploads/2022/07/FIFA-233.jpg" alt="">
+                    </div>
+                    <div class="game3txt">
+                        <p class="game3fifa">EA SPORTS FIFA 23</p>
+                    </div>
+                    <div class="game3info">
+                        <h6 class="game3gen">Sports, Soccer, PvP</h6>
+                    </div>
+                </div>
+
+                <div class="game4">
+                    <div class="game4img">
+                        <img src="https://image.api.playstation.com/vulcan/img/rnd/202010/0715/BvFOUf5GL9asjD0VNNNClG4w.jpg" alt="">
+                    </div>
+                    <div class="game4txt">
+                        <p class="game4nfs">Need For Speed Heat</p>
+                    </div>
+                    <div class="game4info">
+                        <h6 class="game4gen">Racing, Open World, Multiplayer</h6>
+                    </div>
+                </div>
+
+                <div class="game5">
+                    <div class="game5img">
+                        <img src="https://compass-ssl.xbox.com/assets/a0/4f/a04f2744-74d9-4668-8263-e0261fbea869.jpg?n=GTA-V_GLP-Page-Hero-1084_1920x1080.jpg" alt="">
+                    </div>
+                    <div class="game5txt">
+                        <p class="game5gta">Grand Theft Auto V</p>
+                    </div>
+                    <div class="game5info">
+                        <h6 class="game5gen">Open World, Action, Multiplayer</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="gamesideimgs">
+            <div class="images">
+                <h3 class="h3">Payday 2</h5>
+                <div class="imagesimg">
+                    <img id="img1" src="http://www.co-optimus.com/images/upload/image/reviews/Payday2/Payday2_04.jpg" alt="">
+                </div>
+                <div class="imagesimg1">
+                    <img id="img2" src="https://www.allkeyshop.com/blog/wp-content/uploads/payday-2-game-image-02.jpg" alt="">
+                </div>
+                <div class="imagesimg2">
+                    <img id="img3" src="https://fpschampion.com/wp-content/uploads/2022/08/Best-Melee-Build-in-Payday-2-768x432.png" alt="">
+                </div>
+            </div>               
+        </div>
+    </main>
+    
+    
+    <footer class="footer">
+        <div class="footercon">
+            <div class="bordertop">
+                <div class="footerimgvlv">
+                    <img src="https://store.cloudflare.steamstatic.com/public/images/footerLogo_valve_new.png" alt="">
+                </div>
+                <div class="footertext">
+                    <p>© 2022 Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.
+                        VAT included in all prices where applicable.  <span>Privacy Policy</span>   |  <span>Legal</span>   |  <span>Steam Subscriber Agreement</span>   |  <span>Refunds</span>   |  <span>Cookies</span></p>
+                </div>
+                <div class="footerimgstm">
+                    <img src="https://store.cloudflare.steamstatic.com/public/images/v6/logo_steam_footer.png" alt="">
+                </div>
+                <div class="borderbottom"></div>
+            </div>
+        </div>
+        <div class="footernavigation">
+            <div class="footernav">
+                <a href="#" id="a1">About Valve</a>
+                <span>|</span>
+                <a href="#" id="a2">Jobs</a>
+                <span>|</span>
+                <a href="#" id="a3">Steamworks</a>
+                <span>|</span>
+                <a href="#" id="a4">Steam Distribution</a>
+                <span>|</span>
+                <a href="#" id="a5">Support</a>
+                <span>|</span>
+                <a href="#" id="a6">Gift Cards</a>
+                <span>|</span>
+                <a href="#" id="a7">Steam</a>
+                <span>|</span>
+                <a href="#" id="8">Steam</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="storesteam.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

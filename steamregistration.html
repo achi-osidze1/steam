@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Account</title>
+    <link rel="icon" href="https://cdn.freebiesupply.com/images/large/2x/steam-logo-transparent.png">
+    <link rel="stylesheet" href="steamregistration.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="nav">
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <a href="storesteam.html"><img id="steamlogo" src="https://store.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" alt=""></a>
+                <ul class="ul1">
+                    <!-- <li><a href="#" id="link" class="storelink">STORE</a></li> 
+                    <li><a href="#" id="link" class="comlink">COMMUNITY</a></li> -->
+                    <div class="dropdown">
+                        <li><a href="#" id="link" class="storelink">STORE</a></li>
+                        <div class="dropdown-content">
+                          <a href="storesteam.html">HOME</a>
+                          <a href="#">DISCOVERY QUEUE</a>
+                          <a href="#">WISHLIST</a>
+                          <a href="#">POINTS SHOP</a>
+                          <a href="#">NEWS</a>
+                          <a href="#">STATISTICS</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <li><a href="#" id="link" class="comlink">COMMUNITY</a></li>
+                        <div class="dropdown-content">
+                          <a href="storesteam.html">HOME</a>
+                          <a href="#">DISCUSSIONS</a>
+                          <a href="#">WORKSHOP</a>
+                          <a href="#">MARKET</a>
+                          <a href="#">BROADCASTS</a>
+                        </div>
+                    </div>
+                    <li><a href="#" id="link" class="aboutlink">ABOUT</a></li>
+                    <li><a href="#" id="link" class="supportlink">SUPPORT</a></li>
+                    <li><a href="steamlogin.html" id="link" class="alink">LOGIN</a></li>
+                    <p id="linkp">Change language</p>
+                    <p id="linkp">View desktop website</p>
+                </ul>
+            </div>
+
+            <div class="nav2">
+                <ul>
+                    <i class="fa-solid fa-download"><button>Install Steam</button></i>
+                    <span><a href="steamlogin.html">Login</span></a> 
+                    <span>|</span>
+                    <select name="" id="">
+                        <option value="">Language</option>
+                        <option value="">Danish</option>
+                        <option value="">German</option>
+                        <option value="">English</option>
+                        <option value="">Spanish</option>
+                        <option value="">French</option>
+                        <option value="">Italian</option>
+                    </select>
+                    </select>
+                </ul>
+             </div>  
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="registration">
+            <div class="reg">
+
+                <div class="box">
+                    <p id="error1"></p>
+                    <p id="error2"></p>
+                    <p id="error3"></p>
+                </div>
+
+                <form action="steamlogin.html">
+                    <h1>CREATE YOUR ACCOUNT</h1>
+                    <label for="email">Email Address</label>
+                    <input class="email" type="text" name="email" required>
+        
+                    <label for="password">Password</label>
+                    <input class="password" type="text" required style="-webkit-text-security: square">
+                    <p id="passwordp"></p>
+        
+                    <label for="confirmpassword">Confirm Password</label>
+                    <input class="confirmpassword" type="text" required style="-webkit-text-security: square">
+        
+                    <label for="#">Country of Residence</label>
+                    <select id = "sel" name="Country" id="Country">
+                        <option value="">Afghanistan</option>
+                        <option value="">Albania</option>
+                        <option value="">Algeria</option>
+                        <option value="">Argentina</option>
+                        <option value="">Armenia</option>
+                        <option value="">Australia</option>
+                        <option value="">Austria</option>
+                        <option value="">Azerbaijan</option>
+                        <option value="">Bahamas</option>
+                        <option value="">Bangladesh</option>
+                        <option value="">Belgium</option>
+                        <option value="">Brazil</option>
+                        <option value="">Bulgaria</option>
+                        <option value="">Chile</option>
+                        <option value="">Colombia</option>
+                        <option value="">Costa Rica</option>
+                        <option value="">Croatia</option>
+                        <option value="">Cuba</option>
+                        <option value="">Denmark</option>
+                        <option value="">Dominican Republic</option>
+                        <option value="">Ecuador</option>
+                        <option value="">Egypt</option>
+                        <option value="">Estonia</option>
+                        <option value="">Finland</option>
+                        <option value="">France</option>
+                        <option value="">Georgia</option>
+                        <option value="">Germany</option>
+                        <option value="">Greece</option>
+                        <option value="">Guinea</option>
+                        <option value="">Hong Kong</option>
+                        <option value="">Hungary</option>
+                        <option value="">Iceland</option>
+                        <option value="">India</option>
+                        <option value="">Ireland</option>
+                        <option value="">Italy</option>
+                        <option value="">Japan</option>
+                        <option value="">Korea, South</option>
+                        <option value="">Latvia</option>
+                        <option value="">Luxembourg</option>
+                        <option value="">Maldives</option>
+                        <option value="">Malta</option>
+                        <option value="">Mexico</option>
+                        <option value="">Monaco</option>
+                        <option value="">Netherlands</option>
+                        <option value="">Norway</option>
+                        <option value="">Poland</option>
+                        <option value="">Portugal</option>
+                        <option value="">South Africa</option>
+                        <option value="">Spain</option>
+                        <option value="">Sweden</option>
+                        <option value="">Switzerland</option>
+                        <option value="">Thailand</option>
+                        <option value="">Turkey</option>
+                        <option value="">Ukraine</option>
+                        <option value="">United Kingdom</option>
+                        <option value="">Uruguay</option>
+                        <option value="">Venezuela</option>
+                        <option value="">Yemen</option>
+                        <option value="">Zimbabwe</option>
+                    </select>
+        
+                    <label id="robot" for="rob"><input type="checkbox" id="rob" required><span> I'm Not Robot</span><img class="cap" src="https://logodownload.org/wp-content/uploads/2019/07/recaptcha-logo-0.png" alt=""></label>         
+                    <label id="check" for="older"><input id="inp" type="checkbox" required> I am 13 years of age or older and agree to the terms of the Steam Subscriber Agreement and the Valve Privacy Policy.</label>
+        
+                    <button class="btn">Continue</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footercon">
+            <div class="bordertop">
+                <div class="footerimgvlv">
+                    <img src="https://store.cloudflare.steamstatic.com/public/images/footerLogo_valve_new.png" alt="">
+                </div>
+                <div class="footertext">
+                    <p>© 2022 Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.
+                        VAT included in all prices where applicable.  <span>Privacy Policy</span>   |  <span>Legal</span>   |  <span>Steam Subscriber Agreement</span>   |  <span>Refunds</span>   |  <span>Cookies</span></p>
+                </div>
+                <div class="footerimgstm">
+                    <img src="https://store.cloudflare.steamstatic.com/public/images/v6/logo_steam_footer.png" alt="">
+                </div>
+                <div class="borderbottom"></div>
+            </div>
+        </div>
+        <div class="footernavigation">
+            <div class="footernav">
+                <a href="#" id="a1">About Valve</a>
+                <span>|</span>
+                <a href="#" id="a2">Jobs</a>
+                <span>|</span>
+                <a href="#" id="a3">Steamworks</a>
+                <span>|</span>
+                <a href="#" id="a4">Steam Distribution</a>
+                <span>|</span>
+                <a href="#" id="a5">Support</a>
+                <span>|</span>
+                <a href="#" id="a6">Gift Cards</a>
+                <span>|</span>
+                <a href="#" id="a7">Steam</a>
+                <span>|</span>
+                <a href="#" id="8">Steam</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="steamregistration.js"></script>
+</body>
+</html>

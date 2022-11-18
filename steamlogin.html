@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="icon" href="https://cdn.freebiesupply.com/images/large/2x/steam-logo-transparent.png">
+    <link rel="stylesheet" href="steamlogin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="nav">
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <a href="storesteam.html"><img id="steamlogo" src="https://store.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" alt=""></a>
+                <ul class="ul1">
+                    <div class="dropdown">
+                        <li><a href="#" id="link">STORE</a></li>
+                        <div class="dropdown-content">
+                          <a href="storesteam.html">HOME</a>
+                          <a href="#">DISCOVERY QUEUE</a>
+                          <a href="#">WISHLIST</a>
+                          <a href="#">POINTS SHOP</a>
+                          <a href="#">NEWS</a>
+                          <a href="#">STATISTICS</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <li><a href="#" id="link">COMMUNITY</a></li>
+                        <div class="dropdown-content">
+                          <a href="storesteam.html">HOME</a>
+                          <a href="#">DISCUSSIONS</a>
+                          <a href="#">WORKSHOP</a>
+                          <a href="#">MARKET</a>
+                          <a href="#">BROADCASTS</a>
+                        </div>
+                    </div>
+                    <li><a href="#" id="link">ABOUT</a></li>
+                    <li><a href="#" id="link">SUPPORT</a></li>
+                    <li><a href="steamlogin.html" id="link" class="alink">LOGIN</a></li>
+                    <p id="linkp">Change language</p>
+                    <p id="linkp">View desktop website</p>
+                </ul>
+            </div>
+
+            <div class="nav2">
+                <ul>
+                    <i class="fa-solid fa-download"><button>Install Steam</button></i>
+                    <span><a href="steamlogin.html">Login</a></span>
+                    <span>|</span>
+                    <select name="" id="">
+                        <option value="">Language</option>
+                        <option value="">Danish</option>
+                        <option value="">German</option>
+                        <option value="">English</option>
+                        <option value="">Spanish</option>
+                        <option value="">French</option>
+                        <option value="">Italian</option>
+                    </select>
+                    </select>
+                </ul>
+             </div>  
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="signin">
+            <div class="sign">
+                <div class="signintxt">
+                    <h1>SIGN IN</h1>
+                </div>
+
+                <div class="signinbackground">
+                    <form action="storesteam.html">
+                        <label for="email" id="lbl">SIGN IN WITH ACCOUNT NAME</label>
+                        <input class="email" type="text" required name="email">
+        
+                        <label for="password" id="passlbl">PASSWORD</label>
+                        <input class="password" type="text" required style="-webkit-text-security: square">
+                        <button class="btn">Sign In</button>
+                    </form>
+
+                    
+                    <p><a href="steamregistration.html" id="register">Have Not Account?</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footercon">
+            <div class="bordertop">
+                <div class="footerimgvlv">
+                    <img src="https://store.cloudflare.steamstatic.com/public/images/footerLogo_valve_new.png" alt="">
+                </div>
+                <div class="footertext">
+                    <p>© 2022 Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.
+                        VAT included in all prices where applicable.  <span>Privacy Policy</span>   |  <span>Legal</span>   |  <span>Steam Subscriber Agreement</span>   |  <span>Refunds</span>   |  <span>Cookies</span></p>
+                </div>
+                <div class="footerimgstm">
+                    <img src="https://store.cloudflare.steamstatic.com/public/images/v6/logo_steam_footer.png" alt="">
+                </div>
+                <div class="borderbottom"></div>
+            </div>
+        </div>
+        <div class="footernavigation">
+            <div class="footernav">
+                <a href="#" id="a1">About Valve</a>
+                <span>|</span>
+                <a href="#" id="a2">Jobs</a>
+                <span>|</span>
+                <a href="#" id="a3">Steamworks</a>
+                <span>|</span>
+                <a href="#" id="a4">Steam Distribution</a>
+                <span>|</span>
+                <a href="#" id="a5">Support</a>
+                <span>|</span>
+                <a href="#" id="a6">Gift Cards</a>
+                <span>|</span>
+                <a href="#" id="a7">Steam</a>
+                <span>|</span>
+                <a href="#" id="8">Steam</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="steamlogin.js"></script>
+</body>
+</html>
